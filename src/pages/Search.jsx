@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import MovieCard from "../components/MovieCard";
 
-const searchURL = import.meta.env.VITE_SEARCH;
-const apiKey = import.meta.env.VITE_API_KEY;
+const searchURL = 'https://api.themoviedb.org/3/search/movie/';
+const apiKey = 'api_key=752e8cd164fcb0421b51908ba5d7b857';
 
 import "./MoviesGrid.css";
 
