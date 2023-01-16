@@ -1,0 +1,6 @@
+[build]
+  command = "REACT_APP_VITE_API=$VITE_API npm run build"
+  command = "REACT_APP_VITE_API_KEY=$VITE_API_KEY npm run build"
+  command = "REACT_APP_VITE_SEARCH=$VITE_SEARCH npm run build"
+  command = "REACT_APP_VITE_IMG=$VITE_IMG npm run build"
+  
