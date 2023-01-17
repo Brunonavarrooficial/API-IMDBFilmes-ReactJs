@@ -1,4 +1,4 @@
-#navbar{
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,4 +39,14 @@
 #navbar form button:hover {
     background-color: transparent;
     color: #f7D354;
+}
+
+@media (max-width:469px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar h2 {
+        margin-bottom: 5px;
+    }
 }
